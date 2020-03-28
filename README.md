@@ -4,6 +4,8 @@ local dev
 
 `docker-compose up`
 
-serving
+`docker-compose down`
+
+production
 
 `make build && make serve`

@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:13
 
 RUN mkdir -p /usr/src/app
 
@@ -10,4 +10,4 @@ RUN npm install
 
 EXPOSE 3000
 
-CMD ["npm", "run", "start"]
+CMD ["node", "src/index.js"]
